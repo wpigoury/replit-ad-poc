@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 100%;
+    max-width: 800px;
+}
+.adContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-top: 1px solid lightgrey;
+    padding-top: 10px;
+    height: 250px;
+}
+.adContainer.api:after {
+    position: absolute;
+    content: "Advertisement with API";
+    right: 0;
+    font-size: 0.8rem;
+    color: lightgrey;
+    margin-top: -10px;
+}
+.adContainer.pixel:after {
+    position: absolute;
+    content: "Advertisement with Pixel";
+    right: 0;
+    font-size: 0.8rem;
+    color: lightgrey;
+    margin-top: -10px;
+}
+.adContainer.kevel:before {
+    position: absolute;
+    content: "Kevel";
+    left: 0;
+    font-size: 0.8rem;
+    color: lightgrey;
+    margin-top: -10px;
+}
+.adContainer.jivox:before {
+    position: absolute;
+    content: "Jivox";
+    left: 0;
+    font-size: 0.8rem;
+    color: lightgrey;
+    margin-top: -10px;
+}
