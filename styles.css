@@ -1,3 +1,6 @@
+* {
+  font-family: Arial;
+}
 body {
     display: flex;
     justify-content: center;
@@ -5,6 +8,43 @@ body {
 main {
     width: 100%;
     max-width: 800px;
+}
+label {
+  color: lightgrey;
+  font-size: 0.8rem;
+}
+ul {
+  list-style: none;
+  color: grey;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  padding-left: 15px;
+}
+li {
+  position: relative;
+}
+li:before {
+  content: '»';
+  position: absolute;
+  top: 0;
+  left: -15px;
+  font-size: 1.4rem;
+}
+quote {
+  color: grey;
+  font-size: 0.9rem;
+  position: relative;
+}
+quote:before {
+  content: '»';
+  position: absolute;
+  top: -5px;
+  left: -15px;
+  font-size: 1.4rem;
+}
+video {
+  max-width: 300px;
+  aspect-ratio: 4/3;
 }
 .adContainer {
     position: relative;

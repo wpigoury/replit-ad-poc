@@ -15,9 +15,14 @@ curl_setopt_array($curl, array(
     CURLOPT_POSTFIELDS =>'{
     "blockedCreatives": [
         113199452,
-        113556975,
         113539770,
-        112333843
+        114142107,
+        114139774,
+        114140717,
+        114141933,
+        112333843,
+        113556975,
+        296557230
     ],
     "placements": [
         {
@@ -55,17 +60,22 @@ curl_setopt_array($curl, array(
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POSTFIELDS =>'{
     "blockedCreatives": [
-        113553484,
         113199452,
         113539770,
-        112333843
+        114142107,
+        114139774,
+        114140717,
+        114141933,
+        112333843,
+        113553484,
+        113556975
     ],
     "placements": [
         {
             "divName": "div2",
             "networkId": "11172",
             "siteId": "1196902",
-            "adTypes": [5]
+            "adTypes": [163]
         }
     ]
 }',
